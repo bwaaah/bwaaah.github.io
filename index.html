@@ -1,492 +1,568 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Steller landing page.">
-    <meta name="author" content="Devcrud">
-    <title>Steller Landing page | Free Bootstrap 4.1 landing page</title>
-    <!-- font icons -->
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-    <!-- Bootstrap + Steller main styles -->
-	<link rel="stylesheet" href="assets/css/steller.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Tuan GameDev - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
-    <!-- Page navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">Tuan-Wu Chen</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#projects">Projects</a></li>
+          <li><a class="nav-link scrollto" href="#articles">Articles</a></li>
+          <li><a class="nav-link scrollto" href="mailto:tuanwuchen@gmail.com">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.png)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/imgs/logo.svg" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#service">Service</a>
-                    </li>                   
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testmonial">Testmonial</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="- btn btn-primary rounded ml-4" href="components.html">Copmonents</a>
-                    </li>
-                </ul>
-            </div>
-        </div>          
-    </nav>
-    <!-- End of page navibation -->
-
-    <!-- Page Header -->
-    <header class="header" id="home">
-        <div class="container">
-            <div class="infos">
-                <h6 class="subtitle">hello,I'm</h6>
-                <h6 class="title">James Smith</h6>
-                <p>UI/UX Designer</p>
-
-                <div class="buttons pt-3">
-                    <button class="btn btn-primary rounded">HIRE ME</button>
-                    <button class="btn btn-dark rounded">DOWNLOAD CV</button>
-                </div>      
-
-                <div class="socials mt-4">
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
-                </div>
-            </div>              
-            <div class="img-holder">
-                <img src="assets/imgs/man.svg" alt="">
-            </div>      
-        </div>  
-
-        <!-- Header-widget -->
-        <div class="widget">
-            <div class="widget-item">
-                <h2>124</h2>
-                <p>Happy Clients</p>
-            </div>
-            <div class="widget-item">
-                <h2>456</h2>
-                <p>Project Completed</p>
-            </div>
-            <div class="widget-item">
-                <h2>789</h2>
-                <p>Awards Won</p>
-            </div>
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="hero-title mb-4">Tuan-Wu Chen</h1>
+          <p class="hero-subtitle">Gameplay / AI / Animation Engineer</p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
-    </header>
-    <!-- End of Page Header -->
-    
-    <!-- About section -->
-    <section id="about" class="section mt-3">
-        <div class="container mt-5">
-            <div class="row text-center text-md-left">
-                <div class="col-md-3">
-                    <img src="assets/imgs/avatar.jpg" alt="" class="img-thumbnail mb-4">
-                </div>
-                <div class="pl-md-4 col-md-9">
-                    <h6 class="title">James Smith</h6>
-                    <p class="subtitle">UI/UX Designer</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, pariatur, aperiam aut autem voluptas odit. Odio ducimus delectus totam sed aliquam sequi praesentium mollitia, illum repudiandae quidem quod, magni magnam.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, eius, nam. Quo praesentium qui temporibus voluptatum, facilis aliquid eligendi fugiat beatae neque inventore non. Laborum repellendus consequatur ullam voluptatum asperiores.</p>
-                    <button class="btn btn-primary rounded mt-3">DOWNLOAD CV</button>                   
-                </div>
-            </div>
-        </div>
-    </section>
+      </div>
+    </div>
+  </div><!-- End Hero Section -->
 
-    <!-- Service section -->
-    <section id="service" class="section">
-        <div class="container text-center">
-            <h6 class="subtitle">Service</h6>
-            <h6 class="section-title mb-4">What I Do</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
+  <main id="main">
 
-            <div class="row">
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border">
-                        <div class="card-body">
-                            <i class="icon ti-crown"></i>
-                            <h5>UI/UX Design</h5>
-                        </div>
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        About me
+                      </h5>
                     </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border">
-                        <div class="card-body">
-                            <i class="icon ti-desktop"></i>
-                            <h5>Web Design</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border">
-                        <div class="card-body">
-                            <i class="icon ti-mobile"></i>
-                            <h5>App Design</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border">
-                        <div class="card-body">
-                            <i class="icon ti-bar-chart"></i>
-                            <h5>SEO</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of Sectoin -->
-
-    <!-- Skills section -->
-    <section class="section">
-        <div class="container text-center">
-            <h6 class="subtitle">Skills</h6>
-            <h6 class="section-title mb-4">Why Choose me</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
-
-            <div class="row text-left">
-                <div class="col-sm-6">
-                    <h6 class="mb-3">Photoshop</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 89%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>89%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">Web Design</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 83%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>83%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">App Design</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">SEO</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
-                    </div>
-                </div>
-            </div>  
-        </div>
-    </section>
-    <!-- End of Skills sections -->
-
-    <!-- Portfolio section -->
-    <section id="portfolio" class="section">
-        <div class="container text-center">
-            <h6 class="subtitle">Portfolio</h6>
-            <h6 class="section-title mb-4">Check My Wonderful Works</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
-
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-1.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-2.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>                              
-                        </div>
-                    </div>                  
-                </div>
-                <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-3.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-4.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>                              
-                        </div>
-                    </div>                  
-                </div>
-                <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-5.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-6.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>                              
-                        </div>
-                    </div>                  
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- End of portfolio section -->
-
-    <!-- Testmonial Section -->
-    <section id="testmonial" class="section">
-        <div class="container text-center">
-            <h6 class="subtitle">Testmonial</h6>
-            <h6 class="section-title mb-4">What People Say About Me</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
-
-
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="card testmonial-card border">
-                            <div class="card-body">
-                                <img src="assets/imgs/avatar-1.jpg" alt="">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
-                                <h1 class="title">Emma Re</h1>
-                                <h1 class="subtitle">Graphic Designer</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card testmonial-card border">
-                            <div class="card-body">
-                                <img src="assets/imgs/avatar-2.jpg" alt="">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
-                                <h1 class="title">James Bert</h1>
-                                <h1 class="subtitle">Web Designer</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card testmonial-card border">
-                            <div class="card-body">
-                                <img src="assets/imgs/avatar-3.jpg" alt="">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
-                                <h1 class="title">Michael Abra</h1>
-                                <h1 class="subtitle">Web Developer</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of testmonial section -->
-
-    <!-- Blog Section -->
-    <section id="blog" class="section">
-        <div class="container text-center">
-            <h6 class="subtitle">My Blogs</h6>
-            <h6 class="section-title mb-4">Latest News</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
-
-            <div class="row text-left">
-                <div class="col-md-4">
-                    <div class="card border mb-4">
-                        <img src="assets/imgs/blog-1.jpg" alt="" class="card-img-top w-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Designe for Everyone</h5>
-                            <div class="post-details">
-                                <a href="javascript:void(0)">Posted By: Admin</a>
-                                <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 456</a>
-                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit, minima? Voluptas nemo harum impedit nisi.</p>
-                            <a href="javascript:void(0)">Read More..</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border mb-4">
-                        <img src="assets/imgs/blog-2.jpg" alt="" class="card-img-top w-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Web Layouts</h5>
-                            <div class="post-details">
-                                <a href="javascript:void(0)">Posted By: Admin</a>
-                                <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 456</a>
-                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit, minima? Voluptas nemo harum impedit nisi.</p>
-                            <a href="javascript:void(0)">Read More..</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border mb-4">
-                        <img src="assets/imgs/blog-3.jpg" alt="" class="card-img-top w-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Bootstrap Framework</h5>
-                            <div class="post-details">
-                                <a href="javascript:void(0)">Posted By: Admin</a>
-                                <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 456</a>
-                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit, minima? Voluptas nemo harum impedit nisi.</p>
-                            <a href="javascript:void(0)">Read More..</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Hire me section -->
-    <section class="bg-gray p-0 section">
-        <div class="container">
-            <div class="card bg-primary">
-                <div class="card-body text-light">
-                    <div class="row align-items-center">
-                        <div class="col-sm-9 text-center text-sm-left">
-                            <h5 class="mt-3">Hire Me For Your Project</h5>
-                            <p class="mb-3">Accusantium labore nostrum similique quisquam.</p>
-                        </div>
-                        <div class="col-sm-3 text-center text-sm-right">
-                            <button class="btn btn-light rounded">Hire Me!</button>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-        </div>
-    </section>      
-    <!-- End od Hire me section. -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="position-relative section">
-        <div class="container text-center">
-            <h6 class="subtitle">Contact</h6>
-            <h6 class="section-title mb-4">Get In Touch With Me</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
-
-            <div class="contact text-left">
-                <div class="form">
-                    <h6 class="subtitle">Available 24/7</h6>
-                    <h6 class="section-title mb-4">Get In Touch</h6>
-                    <form>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea name="contact-message" id="" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block rounded w-lg">Send Message</button>
-                    </form>
-                </div>
-                <div class="contact-infos">
-                    <div class="item">
-                        <i class="ti-location-pin"></i>
-                        <div class="">
-                            <h5>Location</h5>
-                            <p> 12345 Fake ST NoWhere AB Country</p>
-                        </div>                          
-                    </div>
-                    <div class="item">
-                        <i class="ti-mobile"></i>
-                        <div>
-                            <h5>Phone Number</h5>
-                            <p>(123) 456-7890</p>
-                        </div>                          
-                    </div>
-                    <div class="item">
-                        <i class="ti-email"></i>
-                        <div class="mb-0">
-                            <h5>Email Address</h5>
-                            <p>info@website.com</p>
-                        </div>
-                    </div>
-                </div>                  
-            </div>
-        </div>  
-        <div id="map">
-            <iframe src="https://snazzymaps.com/embed/61257"></iframe>
-        </div>      
-    </section>
-    <!-- End of Contact Section -->
-
-    <!-- Page Footer -->
-    <footer class="page-footer">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-sm-6">
-                    <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="http://www.devcrud.com" target="_blank">DevCRUD</a></p>
-                </div>
-                <div class="col-sm-6">
+                    <p class="lead">
+                      I presently work as a gameplay programmer at Ubisoft Quebec. 
+                      With over a decade of expertise as a game engineer, I specialize in developing gameplay, AI, and animation technology. 
+                      If you're keen on exploring the projects I've contributed to, you can find them <a href="#projects">here</a> .                    </p>
+                    <p class="lead">
+                      My journey into game development began at the age of 14 when I created my first game using the Age of Empires editor.
+                      It was incredibly exciting not only to construct the game but also to witness others enjoy playing it.
+                      I have a strong passion for learning every aspect of game development, ranging from programming and game design to project management and art.
+                      This passion has led me across various countries, from Taiwan to Japan, the US, and now Canada.
+                    </p>
+                    <p class="lead">
+                      Although most of my time is dedicated to my programming day job, I also engage in game jams to apply and refine my game design skills.
+                      If you're interested, you can check them out on <a href="https://bwaaah.itch.io" target="_blank">My Itch.io page</a>.
+                    </p>
                     <div class="socials">
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
+                      <ul>
+                        <li><a href=""></a><button class="button button-a button-small button-rouded button-margin">DOWNLOAD CV</button></a></li>                   
+                        <li><a href="https://www.linkedin.com/in/tuanwu-chen/" target="_blank"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                      </ul>
                     </div>
-                </div>
+                  </div>
+              </div>
             </div>
+          </div>
         </div>
-    </footer> 
-    <!-- End of page footer -->
-	
-	<!-- core  -->
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
-    <!-- bootstrap 3 affix -->
-	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+      </div>
+    </section><!-- End About Section -->
 
-    <!-- steller js -->
-    <script src="assets/js/steller.js"></script>
+    <!-- ======= Projects Section ======= -->
+    <section id="projects" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Projects
+              </h3>
+               <!--<p class="subtitle-a">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>-->
+              <!--<div class="line-mf"></div>-->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="portfolio-details.html" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/ACRed.jpeg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">ASSASSIN'S CREED CODENAME RED</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Gameplay Code</span> / <span class="w-date">Work In Progress</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/b4b.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/b4b.jpeg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">BACK 4 BLOOD</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Animation Code</span> / <span class="w-date">2021</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/ff7ri.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/ff7ri.jpeg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">FINAIL FASTASY 7 REMAKE INTERGRADE</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">AI Code</span> / <span class="w-date">2020</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/ff7r.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/ff7r.jpeg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">FINAIL FASTASY 7 REMAKE</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">AI Code</span> / <span class="w-date">2020</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/ge3.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/ge3.jpeg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">GOD EATER 3</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Game Code</span> / <span class="w-date">2018</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/mhs.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/mhs.jpeg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">Monster hunter Stories</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Gameplay Code</span> / <span class="w-date">2016</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/catrun.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/catrun.jpeg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">にゃんこラン</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Game Design & Code</span> / <span class="w-date">2015</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="assets/img/farm.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="assets/img/farm.jpeg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h2 class="w-title">小肥羊牧場</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Game Code</span> / <span class="w-date">18 Sep. 2017</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="https://bwaaah.itch.io" target="_blank">
+                <div class="work-img">
+                  <img src="assets/img/gamejam.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Game Jam Projects</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Blog Section ======= -->
+    <section id="articles" class="blog-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Articles
+              </h3>
+              <p class="subtitle-a">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog-single.html"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Travel</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                  a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog-single.html"><img src="assets/img/post-2.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                  a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                  a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
+                </div>
+                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+                <p class="card-description">
+                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
+                  a pellentesque nec,
+                  egestas non nisi.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Morgan Freeman</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 10 min
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Blog Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <!--<section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.png)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        Get in Touch
+                      </h5>
+                    </div>
+                    <div>
+                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12 text-center my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                          </div>
+                          <div class="col-md-12 text-center">
+                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5 class="title-left">
+                        Get in Touch
+                      </h5>
+                    </div>
+                    <div class="more-info">
+                      <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
+                        expedita aperiam aliquid at.
+                        Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
+                        mollitia inventore?
+                      </p>
+                      <ul class="list-ico">
+                        <li><span class="bi bi-geo-alt"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
+                        <li><span class="bi bi-phone"></span> (617) 557-0089</li>
+                        <li><span class="bi bi-envelope"></span> contact@example.com</li>
+                      </ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li><a href=""><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
+                        <li><a href=""><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
+                        <li><a href=""><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
+                        <li><a href=""><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>--><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="copyright-box">
+            <p class="copyright">&copy; Copyright <strong>Tuan-Wu Chen</strong>. All Rights Reserved</p>
+            <div class="credits">
+              <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+            -->
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
