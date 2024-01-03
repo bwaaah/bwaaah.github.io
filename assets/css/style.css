@@ -673,7 +673,7 @@ a:hover {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #232323;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -692,7 +692,7 @@ a:hover {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #4e4e4e;
+  color: #fff;
 }
 
 .navbar-mobile a:hover,
